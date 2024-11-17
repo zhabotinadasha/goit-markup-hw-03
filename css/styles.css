@@ -57,6 +57,19 @@ img {
     color: #F4F4FD;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* Common styles */
 .section-title {
     font-size: 36px;
@@ -224,8 +237,6 @@ img {
 
 .team {
     background: #f4f4fd;
-    padding-right: 156px;
-    padding-left: 156px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
