@@ -171,12 +171,12 @@ img {
 
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-container {
-    padding-top: 188px;
     padding-right: 316px;
-    padding-bottom: 188px;
     padding-left: 316px;
 }
 
