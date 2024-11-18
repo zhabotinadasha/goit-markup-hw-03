@@ -175,10 +175,11 @@ img {
     padding-bottom: 188px;
 }
 
-.hero-container {
+/* .hero-container {
+    width: 1158px;
     padding-right: 316px;
     padding-left: 316px;
-}
+} */
 
 .hero-heading {
     font-size: 56px;
