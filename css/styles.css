@@ -130,7 +130,6 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-right: 332px;
 }
 
 .nav-item {}
@@ -146,6 +145,10 @@ img {
 .nav-link:focus,
 .nav-link:hover {
     color: #404bbf;
+}
+
+address {
+    margin-left: auto;
 }
 
 .header-adress {}
@@ -189,6 +192,8 @@ img {
     color: #fff;
     margin-bottom: 48px;
     max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-btn {
@@ -204,8 +209,8 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
-    margin-right: 163px;
-    margin-left: 164px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-btn:hover,
@@ -227,7 +232,7 @@ img {
 }
 
 .features-item {
-    width: 264px;
+    width: calc((100% - 3 * 24px) / 4)
 }
 
 .features-subtitle {
@@ -256,11 +261,10 @@ img {
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-
+    width: calc((100% - 3 * 24px) / 4)
 }
 
 .team-wrapper {
-    margin: 32px 16px;
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
